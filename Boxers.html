@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My JQuery Mobile</title>
+    <meta name="vieport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    //The jQuery Mobile CSS theme file (optional, if you are overriding the default theme)
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <link rel="stylesheet" type="text/css" href="Boxers.css">
+
+   
+</head>
+
+<body>
+
+    <div data-role="page" id="page1">
+       <div data-role="panel" id="mypanel">
+           This is what a panel coming in from the left looks like!
+       </div>
+       <div data-role="panel" id="myrightpanel" data-position="right" data-display="push">
+           This is what a panel coming in from the right looks like!
+       </div>
+       <div data-role="panel" id="myrightoverlaypanel" data-position="right" data-display="overlay">
+           This is what a panel overlaying information on the right looks like!
+       </div>
+        <div data-role="header">
+            <h1>Home Page</h1>
+            <div data-role="navbar">
+                <ul class="navlist">
+                    <!--                    <li class="ui-btn-active"><a href="#">Home</a></li>-->
+                    <li><a href="#page2">Video</a></li>
+                    <li><a href="#page3">Appearance</a></li>
+                    <li><a href="#page4">Pictures</a></li>
+                    <li><a href="#page5">About</a></li>
+                </ul>
+            </div>
+            <!--/navbar-->
+        </div><!-- /header-->
+
+        <div data-role="main" class="ui-content">
+        <div><a href="#mypanel" class="ui-btn ui-btn-icon-left ui-icon-arrow-l">Open panel on left</a></div>
+        <div><a href="#myrightpanel" class="ui-btn ui-btn-icon-right ui-icon-arrow-r">Open panel on right</a></div>
+         <div><a href="#myrightoverlaypanel" class="ui-btn ui-btn-icon-right ui-icon-arrow-r">Overlay panel on right</a></div>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h3>Home Page</h3>
+        </div>
+
+    </div>
+
+    <div data-role="page" id="page2">
+        <div data-role="header">
+            <h1>Videos</h1>
+            <div data-role="navbar">
+                <ul class="navlist">
+                    <li><a href="#page1">Home</a></li>
+                    <!--                    <li class="ui-btn-active"><a href="#">Video</a></li>-->
+                    <li><a href="#page3">Appearance</a></li>
+                    <li><a href="#page4">Pictures</a></li>
+                    <li><a href="#page5">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content">
+<!--            <video>-->
+           <iframe width="320" height="180" src="https://www.youtube.com/embed/n3p9wJCWtQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--            Your browser does not support the video tag-->
+<!--            </video>-->
+           <iframe width="320" height="180" src="https://www.youtube.com/embed/KIsW_ARrFJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="320" height="180" src="https://www.youtube.com/embed/U0ce2m206wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="320" height="180" src="https://www.youtube.com/embed/CUAr31am89k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h3>Videos footer</h3>
+        </div>
+
+    </div>
+
+    <div data-role="page" id="page3">
+        <div data-role="header">
+            <h1>Apearance</h1>
+            <div data-role="navbar">
+                <ul class="navlist">
+                    <li><a href="#page1">Home</a></li>
+                    <li><a href="#page2">Video</a></li>
+                    <!--                    <li class="ui-btn-active"><a href="#">Appearance</a></li>-->
+                    <li><a href="#page4">Pictures</a></li>
+                    <li><a href="#page5">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content">
+           <img src="images/440px-Boxer_proportions.jpg" alt="Boxer proportions">
+           <h2>Appearance</h2>
+            <p style="font-size: 20px">The head is the most distinctive feature of the Boxer. The breed standard dictates that it must be in perfect proportion to the body and above all it must never be too light. The greatest value is to be placed on the muzzle being of correct form and in absolute proportion to the skull. The length of the muzzle to the whole of the head should be a ratio of 1:3. Folds are always present from the root of the nose running downwards on both sides of the muzzle, and the tip of the nose should lie somewhat higher than the root of the muzzle. In addition a Boxer should be slightly prognathous, i.e., the lower jaw should protrude beyond the upper jaw and bend slightly upwards in what is commonly called an underbite or "undershot bite". 
+Boxers were originally a docked and cropped breed, and this is still done in some countries. However, due to pressure from veterinary associations, animal rights groups, and the general public, both cropping of the ears and docking of the tail have been prohibited in many countries around the world. A line of naturally short-tailed (bobtail) Boxers was developed in the United Kingdom in anticipation of a tail docking ban there; after several generations of controlled breeding, these dogs were accepted in the Kennel Club (UK) registry in 1998, and today representatives of the bobtail line can be found in many countries around the world. However, in 2008 the FCI added a "naturally stumpy tail" as a disqualifying fault in their breed standard, meaning those Boxers born with a bobtail can no longer be shown in FCI member countries. In the United States and Canada as of 2012, cropped ears are still more common in show dogs, even though the practice of cosmetic cropping is currently opposed by the American Veterinary Medical Association. In March 2005 the AKC breed standard was changed to include a description of the uncropped ear, but to severely penalize an undocked tail. The tail of a boxer is typically docked before the cartilage is fully formed, between 3–5 days old. This procedure does not require any anesthesia or sutures when performed at this young age.</p> 
+<h2>Coat and colors</h2>
+<p style="font-size: 20px">The Boxer is a short-haired breed, with a shiny, smooth coat that lies tight to the body. The recognized colors are fawn and brindle, frequently with a white underbelly and white on the feet. These white markings, called flash, often extend onto the neck or face, and dogs that have these markings are known as "flashy". "Fawn" denotes a range of color, the tones of which may be described variously as light tan or yellow, reddish tan, mahogany or stag/deer red, and dark honey-blonde. In the UK and Europe, fawn Boxers are typically rich in color and are often called "red". "Brindle" refers to a dog with black stripes on a fawn background. Some brindle Boxers are so heavily striped that they give the appearance of "reverse brindling", fawn stripes on a black body; these dogs are conventionally called "reverse brindles", but that is actually a misnomer—they are still fawn dogs with black stripes. In addition, the breed standards state that the fawn background must clearly contrast with or show through the brindling. 
+The Boxer does not carry the gene for a solid black coat color and therefore purebred black Boxers do not exist. - Wikepedia.org</p>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h3>Appearance</h3>
+        </div>
+
+    </div>
+
+    <div data-role="page" id="page4">
+        <div data-role="header">
+            <h1>Pictures</h1>
+            <div data-role="navbar">
+                <ul class="navlist">
+                    <li><a href="#page1">Home</a></li>
+                    <li><a href="#page2">Video</a></li>
+                    <li><a href="#page3">Appearance</a></li>
+                    <!--                    <li class="ui-btn-active"><a href="#">Pictures</a></li>-->
+                    <li><a href="#page5">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div class="images">
+                <img  src="/images/baby-boxer.jpg" alt="Baby Boxer">
+                <img src="/images/baby-boxer-with-ball.jpg" alt="Baby Boxer with ball">
+                <img src="/images/baby-boxer-on-motorcycle.jpg" alt="Baby Boxer on motorcycle">
+                <img src="/images/boxer-dog.jpg" alt="Boxer Dog">
+                <img src="/images/boxer-dog-listening.jpg" alt="Boxer dog listening">
+                <img src="images/boxer-dog-pet.jpg" alt="Boxer Dog pet">
+                <img src="images/boxer-on-couch.jpg">
+                <img src="images/boxer-with-destroyed-ball.jpg">
+                <img src="images/boxer-with-stick.jpg">
+                <img src="images/brown-boxer-dog.jpg">
+                <img src="images/canoeing-dogs.jpg">
+                <img src="images/different-color-boxers.jpg">
+                <img src="images/dogs-at-play.jpg">
+                <img src="images/friends.jpg">
+                <img src="images/white-boxer-on-rug.jpg">
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h3>Pictures</h3>
+        </div>
+
+    </div>
+
+    <div data-role="page" id="page5">
+        <div data-role="header">
+            <h1>About Boxers</h1>
+            <div data-role="navbar">
+                <ul class="navlist">
+                    <li><a href="#page1">Home</a></li>
+                    <li><a href="#page2">Video</a></li>
+                    <li><a href="#page3">Appearance</a></li>
+                    <li><a href="#page4">Pictures</a></li>
+                    <!--                    <li class="ui-btn-active"><a href="">Page 5</a></li>-->
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h2>About Boxers</h2>
+            <p style="font-size: 20px">The Boxer is a medium-sized, short-haired breed of dog, developed in Germany. The coat is smooth and tight-fitting; colors are [[Fawn (colour)|fawn brindled or white, with or without white markings. Boxers are brachycephalic (they have broad, short skulls), have a square muzzle, mandibular prognathism (an underbite), very strong jaws, and a powerful bite ideal for hanging on to large prey. The Boxer was bred from the Old English Bulldog and the now extinct Bullenbeisser which became extinct by crossbreeding rather than by a decadence of the breed. The purpose of the crossbreeding was the wish to eliminate the excessive white color of the breed, and the necessity of producing thousands of dogs for one of the most popular breeds in the world. The Boxer is part of the Molosser group. This group is a category of solidly built, large dog breeds that all descend from the same common ancestor, the large shepherd dog known as a Molossus. The Boxer is a member of the Working Group.[4] 
+The first Boxer club was founded in 1895, with Boxers being first exhibited in a dog show for St. Bernards in Munich the next year. Based on 2013 American Kennel Club statistics, Boxers held steady as the seventh-most popular breed of dog in the United States for the fourth consecutive year.[5] However, according to the AKC's website,[6] the boxer is now the eighth-most popular dog breed in the United States. Boxers have white and black markings.[7]</p>
+           <img src="images/440px-Male_fawn_Boxer_undocked.jpg" alt="Male fawn Boxer">
+            
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h3>About Boxers</h3>
+        </div>
+
+    </div>
+     //The jQuery core JavaScript file
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    //The jQuery Mobile core JavaScript file
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    //The jquery carousel
+
+</body>
+
+</html>
